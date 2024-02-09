@@ -22,6 +22,11 @@ class Welcome extends CI_Controller {
 	{
 		$datos['titulo']="Esto es un ejemplo";
 		$this->load->view('welcome_message',$datos);
+
 	}
+	public function about_us(){     
+		$this->load->view('about_us');
+	}
+
 }
 
